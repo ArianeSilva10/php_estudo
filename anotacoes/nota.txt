@@ -1,0 +1,17 @@
+dica: ver a aula antes com velocidade maior e depois reassistir com a velocidade normal, isso acontece porque a gente já sabe o que vai ter.
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+
+mysql -uroot -p
+Enter password: 
+root
+
+php -S localhost:8000
+http://localhost:8000/sintaxe.php
+
+################################################################
+
+Se estiver um loop infinito Ctrl + C no terminal onde ta rodando o localhost
+
+####################################################################
+sudo systemctl restart apache2 
